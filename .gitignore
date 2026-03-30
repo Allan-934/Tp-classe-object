@@ -1,0 +1,43 @@
+﻿# Build artifacts
+bin/
+obj/
+
+# Visual Studio cache/options
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+*.sln.iml
+
+# NuGet
+*.nupkg
+packages/
+
+# Publish output
+publish/
+
+# Test results
+TestResults/
+*.trx
+
+# Logs
+*.log
+
+# Backup files
+*.bak
+*.backup
+
+# MonoDevelop
+*.pidb
+*.userprefs
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# OneDrive temp
+~$*
