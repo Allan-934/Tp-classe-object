@@ -4,6 +4,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+       Produit p1 = new Produit("A001", "Produit 1", 10.5);
+       // Exercice 1  
+       Console.WriteLine(p1); 
     }
 }
