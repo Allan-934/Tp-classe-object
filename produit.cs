@@ -25,13 +25,16 @@ class Produit
     // Exercice 2
     public override bool Equals(object obj)
     {
-        if (obj == null) return false;
         if (obj is Produit autre)
         {
-            return codeArticle == autre.codeArticle &&
-                   designation == autre.designation &&
-                   prix == autre.prix;
+            return codeArticle == autre.codeArticle;
         }
         return false;
+    }
+
+    // Exercice 3 
+    public override int GetHashCode()
+    {
+        return codeArticle.GetHashCode();
     }
 }
